@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <title>Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-['Inter']">
+    <header class="font-['Montserrat']">
+        <nav class="flex py-2 justify-between shadow-md items-center px-4 bg-white font-medium md:px-6 ">
+            <a href="/" class="flex items-center gap-2">
+                <img
+                    src="/src/assets/images/Scott's-Removals.png"
+                    alt="Scott's Removals logo"
+                    class="h-12 w-auto object-contain md:h-16"
+                />
+            </a>
+
+            <div class="hidden md:flex items-center gap-10">
+                <div class="text-lg lg:text-xl">
+                    <ul class="flex gap-10">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="./src/pages/services.html">Our Services</a></li>
+                        <li><a href="./src/pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="hidden md:flex items-center">
+                    <a
+                        href="tel:0725318154"
+                        class="rounded-md bg-green-600 px-4 py-2 text-white font-semibold hover:bg-green-700"
+                    >
+                        Call Now
+                    </a>
+                </div>
+            </div>
+
+            <button
+                type="button"
+                aria-label="Open menu"
+                class="h-10 w-10 flex flex-col justify-center items-center rounded-md active:bg-black/10 md:hidden"
+                id="menu-btn"
+            >
+                <div class="flex flex-col gap-1">
+                    <span class="w-6 h-0.5 bg-green-600"></span>
+                    <span class="w-6 h-0.5 bg-green-600"></span>
+                    <span class="w-6 h-0.5 bg-green-600"></span>
+                </div>
+            </button>
+        </nav>
+
+        <nav
+            id="mobile-menu" 
+            class="hidden md:hidden bg-gray-100 text-center"
+        >
+            <ul>
+                <li class="border-b border-white">
+                    <a href="/" class="block py-2">Home</a>
+                </li>
+                <li class="border-b border-b-white">
+                    <a href="./src/pages/services.html" class="block py-2">Our Services</a>
+                </li>
+                <li class="border-b border-b-white">
+                    <a href="./src/pages/contact.html" class="block py-2">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-gray-100 py-8 px-5">
+        <div class="text-center max-w-xl mx-auto lg:mt-10">
+            <div>
+                <h1 class="text-3xl font-bold font-['Montserrat']">Our Services</h1>
+
+                <p class="mt-2 text-gray-600">
+                    Reliable rubble removal and property clean-up services in Cape Town.
+                </p>
+            </div>
+
+            <div class="mt-12 space-y-6">
+                <div class="space-y-2 bg-white rounded-xl p-5 shadow-sm text-center">
+                    <h2 class="text-2xl font-semibold font-['Montserrat'] text-gray-900">Garden Refuse</h2>
+
+                    <p class="text-sm leading-relaxed text-gray-700">
+                        We collect and remove garden waste such as branches, leaves, grass cuttings, and other green debris.
+                        Whether after garden maintenance or a large clean-up, we help keep your outdoor space tidy.
+                    </p>
+                </div>
+
+                <div class="space-y-2 bg-white rounded-xl p-5 shadow-sm text-center">
+                    <h2 class="text-2xl font-semibold font-['Montserrat'] text-gray-900">Garage Junk Removal</h2>
+
+                    <p class="text-sm leading-relaxed text-gray-700">
+                        If your garage or storage area is filled with unwanted items, we can help clear it out.
+                        We remove general junk, old materials, and clutter so you can reclaim your space.
+                    </p>
+                </div>
+                <div class="space-y-2 bg-white rounded-xl p-5 shadow-sm text-center">
+                    <h2 class="text-2xl font-semibold font-['Montserrat'] text-gray-900">Tree Felling</h2>
+                    
+                    <p class="text-sm leading-relaxed text-gray-700">
+                        We provide safe tree felling services for small to medium-sized trees.
+                        Whether a tree is damaged, overgrown, or in the way, we carefully cut it down and remove the debris.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-green-700 text-white text-center py-10 px-5 mt-10">
+        <h2 class="text-3xl font-bold font-['Montserrat']">
+            Need tree cutting or garden waste removed?
+        </h2>
+
+        <p class="mt-2">
+            Contact us today for a fast, free quote.
+        </p>
+
+        <div class="mt-5 flex justify-center gap-4">
+            <a href="tel:0725318154" class="bg-white text-green-700 px-6 py-3 rounded-lg font-bold shadow-lg">
+                Call Now
+            </a>
+
+            <!-- <a href="./src/pages/contact.html" class="border border-white px-6 py-3 rounded">
+                Contact Us
+            </a> -->
+
+            <a href="https://wa.me/27725318154" class="border border-white/60 px-6 py-3 rounded-lg">
+                WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <footer class="mt-16 bg-gray-900 text-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-3">
+            <div>
+                <h3 class="text-lg font-semibold mb-2">
+                    Scott's Removals
+                </h3>
+                <p class="text-sm">
+                    Fast & reliable tree felling and garden waste removal services.
+                </p>
+                <p class="mt-2 text-sm">
+                    Serving Cape Town & surrounding areas
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Contact</h3>
+                <p class="text-sm">
+                    Phone:
+                    <a
+                    href="tel:0725318154"
+                    class="text-green-400 hover:underline"
+                    >
+                    072 531 8154
+                    </a>
+                </p>
+                <p class="text-sm mt-1">
+                    WhatsApp available
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-2">Quick Links</h3>
+                <ul class="space-y-1 text-sm">
+                    <li>
+                        <a href="/" class="hover:text-green-500">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/src/pages/services.html" class="hover:text-green-500">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/src/pages/contact.html" class="hover:text-green-500">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="border-t border-gray-700 text-center py-4 text-xs">
+            © <span id="year"></span> Scott's Removals. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="/src/js/navbar.js"></script>
+</body>
+</html>
